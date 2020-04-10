@@ -14,11 +14,11 @@ version = "1.1.2"
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = "2019.3.1"
+    version = "2020.1"
 }
 
 tasks.withType<org.jetbrains.intellij.tasks.PatchPluginXmlTask>() {
-    setChangeNotes("""Initial release of the plugin which supports all versions of mirai console""".trimIndent())
+    setChangeNotes("""Update to 2020.1""".trimIndent())
 }
 
 allprojects {
